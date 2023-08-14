@@ -1,29 +1,46 @@
 
 
-<!doctype html>
+
+<!DOCTYPE html>
 
 <html lang="vi">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Usage &#8212; Tài liệu secugram 0.1</title>
-    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=649a27d8" />
-    <link rel="stylesheet" type="text/css" href="_static/bizstyle.css?v=c92c1228" />
+    <title>HOW-TO GUIDES &#8212; Tài liệu secugram 0.1</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/cloud.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text:400,i,b,bi|Open+Sans:400,i,b,bi|Roboto+Mono:400,i,b,bi&amp;display=swap" type="text/css" />
     
-    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=6a90950e"></script>
-    <script src="_static/doctools.js?v=888ff710"></script>
-    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
-    <script src="_static/translations.js?v=71464233"></script>
-    <script src="_static/bizstyle.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/translations.js"></script>
+
+    
+    
+     
+        <script src="_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script src="_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script src="_static/cloud.js"></script>
+    
+
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Tìm Kiếm" href="search.html" />
-    <link rel="prev" title="Welcome to secugram&#39;s documentation!" href="index.html" />
-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <!--[if lt IE 9]>
-    <script src="_static/css3-mediaqueries.js"></script>
-    <![endif]-->
+    <link rel="prev" title="Welcome to SecuGram&#39;s documentation!" href="index.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
   </head><body>
+    <div class="relbar-top">
+        
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Điều hướng</h3>
       <ul>
@@ -31,26 +48,100 @@
           <a href="genindex.html" title="Chỉ mục chung"
              accesskey="I">chỉ mục</a></li>
         <li class="right" >
-          <a href="index.html" title="Welcome to secugram&#39;s documentation!"
-             accesskey="P">xem lại</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Tài liệu secugram 0.1</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Usage</a></li> 
+          <a href="index.html" title="Welcome to SecuGram&#39;s documentation!"
+             accesskey="P">xem lại</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">Tài liệu secugram 0.1</a> &#187;</li>
+
+        <li class="nav-item nav-item-this"><a href="">HOW-TO GUIDES</a></li> 
       </ul>
-    </div>  
+    </div>
+    </div>
+  
 
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="usage">
-<h1>Usage<a class="headerlink" href="#usage" title="Permalink to this heading">¶</a></h1>
-<section id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading">¶</a></h2>
-<p>To use Lumache, first install it using pip:</p>
-<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="gp gp-VirtualEnv">(.venv)</span> <span class="gp">$ </span>pip<span class="w"> </span>install<span class="w"> </span>lumache
-</pre></div>
+  <section id="how-to-guides">
+<h1>HOW-TO GUIDES<a class="headerlink" href="#how-to-guides" title="Permalink to this heading">¶</a></h1>
+<section id="creating-a-website">
+<h2>Creating a website<a class="headerlink" href="#creating-a-website" title="Permalink to this heading">¶</a></h2>
+<p>Go to <a class="reference external" href="https://server_ip:62443/SecuGram">https://server_ip:62443/SecuGram</a></p>
+<dl>
+<dt>1 - Create a virtual IP:</dt><dd><p>In <em>Interfaces</em> menu, click <strong>Add Virtual IP</strong> button:</p>
+<blockquote>
+<div><p><img alt="png0" src="_images/00.png" /></p>
+</div></blockquote>
+</dd>
+<dt>2 - Create a new app:</dt><dd><p>In <em>Websites</em> menu, click <strong>Add Website</strong></p>
+<blockquote>
+<div><p><img alt="png1" src="_images/01.png" /></p>
+</div></blockquote>
+<p>After <strong>Save</strong>, click <strong>Deploy</strong></p>
+<blockquote>
+<div><p><img alt="png2" src="_images/02.png" /></p>
+</div></blockquote>
+</dd>
+<dt>3 - Configure the new app.</dt><dd><p><em>Websites disabled</em> menu, click over the application:</p>
+<blockquote>
+<div><p><img alt="png3" src="_images/03.png" /></p>
+</div></blockquote>
+<p>On <em>WAF Protection</em> tab, enable waf rules:</p>
+<blockquote>
+<div><p><img alt="png4" src="_images/04.png" /></p>
+</div></blockquote>
+<div class="line-block">
+<div class="line">Choose a virtual IP (previusly created on Interfaces menu).</div>
+<div class="line">Configure ports (leave it blank if you dont need https port, same thing appy to http port).</div>
+<div class="line">On <strong>Real Application IP</strong> box, fill real backend IP. Eg: &quot;127.0.0.1:8080&quot;.</div>
 </div>
+<blockquote>
+<div><p><img alt="png5" src="_images/05.png" /></p>
+</div></blockquote>
+<p>Configure certificates if ssl ports are set.</p>
+<blockquote>
+<div><p><img alt="png6" src="_images/06.png" /></p>
+</div></blockquote>
+<div class="line-block">
+<div class="line">Click <em>Expert Configuaration</em> tab =&gt; Nginx configuaration box:</div>
+<div class="line">Comment line &quot;proxy_pass $scheme://backend$separator$vhost$separator$plbsid$scheme;&quot;.</div>
+<div class="line">Add line &quot;proxy_pass 127.0.0.1:8080;&quot; (enter the real backend application).</div>
+</div>
+<blockquote>
+<div><p><img alt="png7" src="_images/07.png" /></p>
+</div></blockquote>
+<p>Press the &quot;play&quot; button to enable the new app.</p>
+<blockquote>
+<div><p><img alt="png9" src="_images/09.png" /></p>
+</div></blockquote>
+</dd>
+<dt>4 - Restart/Start Nginx</dt><dd><p>In <em>Manage Nginx</em> Menu, choose action you need.</p>
+<blockquote>
+<div><p><img alt="png8" src="_images/08.png" /></p>
+</div></blockquote>
+</dd>
+</dl>
+</section>
+<section id="status-box-explaination">
+<h2>Status box explaination<a class="headerlink" href="#status-box-explaination" title="Permalink to this heading">¶</a></h2>
+<table class="docutils align-default" id="id1">
+<caption><span class="caption-text">Status Box</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<tbody>
+<tr class="row-odd"><td><p>Status</p></td>
+<td><p>Explaination</p></td>
+</tr>
+<tr class="row-even"><td><p>Not Running</p></td>
+<td><p>Nginx not running</p></td>
+</tr>
+<tr class="row-odd"><td><p>Running but 0 apps running</p></td>
+<td><p>Nginx running but no web app created</p></td>
+</tr>
+<tr class="row-even"><td><p>Nginx running and apps running</p></td>
+<td><p>Nginx is running and there is at least 1 web app running</p></td>
+</tr>
+</tbody>
+</table>
 </section>
 </section>
 
@@ -60,21 +151,21 @@
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper">
-  <div>
-    <h3><a href="index.html">Table of Contents</a></h3>
+        <div class="sphinxsidebarwrapper"><div class="sphinx-toc sphinxlocaltoc">
+    <h3><a href="index.html">Page contents</a></h3>
     <ul>
-<li><a class="reference internal" href="#">Usage</a><ul>
-<li><a class="reference internal" href="#installation">Installation</a></li>
+<li><a class="reference internal" href="#">HOW-TO GUIDES</a><ul>
+<li><a class="reference internal" href="#creating-a-website">Creating a website</a></li>
+<li><a class="reference internal" href="#status-box-explaination">Status box explaination</a></li>
 </ul>
 </li>
 </ul>
 
   </div>
-  <div>
-    <h4>Chủ đề trước</h4>
+  <div class="sphinxprev">
+    <h4>Previous page</h4>
     <p class="topless"><a href="index.html"
-                          title="chương trước ">Welcome to secugram's documentation!</a></p>
+                          title="Previous page">&larr; Welcome to SecuGram's documentation!</a></p>
   </div>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
@@ -95,8 +186,27 @@
 <script>document.getElementById('searchbox').style.display = "block"</script>
         </div>
       </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
       <div class="clearer"></div>
     </div>
+    <div class="relbar-bottom">
+        
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Điều hướng</h3>
       <ul>
@@ -104,15 +214,19 @@
           <a href="genindex.html" title="Chỉ mục chung"
              >chỉ mục</a></li>
         <li class="right" >
-          <a href="index.html" title="Welcome to secugram&#39;s documentation!"
-             >xem lại</a> |</li>
-        <li class="nav-item nav-item-0"><a href="index.html">Tài liệu secugram 0.1</a> &#187;</li>
-        <li class="nav-item nav-item-this"><a href="">Usage</a></li> 
+          <a href="index.html" title="Welcome to SecuGram&#39;s documentation!"
+             >xem lại</a> &nbsp; &nbsp;</li>
+    <li><a href="index.html">Tài liệu secugram 0.1</a> &#187;</li>
+
+        <li class="nav-item nav-item-this"><a href="">HOW-TO GUIDES</a></li> 
       </ul>
     </div>
-    <div class="footer" role="contentinfo">
-    &#169; Bản quyền 2023, secugram.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.1.2.
     </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2023, secugram.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 6.2.1.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
   </body>
 </html>

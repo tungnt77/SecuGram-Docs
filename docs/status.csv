@@ -1,0 +1,4 @@
+Status,Explaination
+Not Running,Nginx not running
+Running but 0 apps running,Nginx running but no web app created
+Nginx running and apps running,Nginx is running and there is at least 1 web app running

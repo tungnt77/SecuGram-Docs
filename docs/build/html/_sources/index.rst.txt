@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to secugram's documentation!
+Welcome to SecuGram's documentation!
 ====================================
 
 .. toctree::
@@ -11,11 +11,3 @@ Welcome to secugram's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
